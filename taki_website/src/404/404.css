@@ -1,0 +1,110 @@
+.notFound {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 3%;
+    background-color: #3d3f43;
+    min-height: 100vh;
+    align-items: center;
+}
+
+.error-text {
+    width: 45%;
+    margin-left: 15%;
+}
+
+.error-text>h1 {
+    color: #6FE5D4;
+    font-family: "DM Serif Display";
+    font-size: 35vh;
+    margin: 0;
+}
+
+.error-text>p {
+    color: #3E3F43;
+    font-family: "DM Serif Display";
+    font-size: 4vh;
+    width: 70%;
+    margin: 0;
+}
+
+.error-text>button {
+    width: 30%;
+    font-family: "Jost";
+    font-size: 2.5vh;
+    padding: 3% 3%;
+    background-color: #3E3F43;
+    color: white;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5%;
+}
+
+.error-img {
+    width: 50%;
+    object-fit: cover;
+}
+
+.error-img>img {
+    width: 100%;
+    border-bottom-left-radius: 35%;
+}
+
+/* Mobile Responsive Styles */
+@media screen and (max-width: 768px) {
+    .notFound {
+        flex-direction: column;
+        padding: 5% 0;
+        text-align: center;
+    }
+
+    .error-text {
+        width: 90%;
+        margin-left: 0;
+        order: 2;
+    }
+
+    .error-text > h1 {
+        font-size: 25vh;
+    }
+
+    .error-text > p {
+        font-size: 3vh;
+        width: 100%;
+        color: #BFBFBF;
+    }
+
+    .error-text > button {
+        width: 60%;
+        font-size: 2vh;
+        margin: 5% auto 0 auto;
+    }
+
+    .error-img {
+        width: 80%;
+        order: 1;
+        margin-bottom: 5%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .error-text > h1 {
+        font-size: 20vh;
+    }
+
+    .error-text > p {
+        font-size: 2.5vh;
+    }
+
+    .error-text > button {
+        width: 80%;
+        font-size: 1.8vh;
+        padding: 4% 3%;
+    }
+
+    .error-img {
+        width: 90%;
+    }
+}

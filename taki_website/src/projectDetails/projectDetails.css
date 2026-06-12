@@ -1,0 +1,146 @@
+.projectDetails {
+  width: 100%;
+}
+
+.pDetails-header {
+  height: 42vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.details {
+  width: 70%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 0 auto;
+  padding: 4% 0% 3% 0%;
+}
+
+.d-client-info {
+  width: 37%;
+  min-height: 40vh;
+  padding: 3% 3%;
+  background-color: #BFBFBF;
+  border-radius: 15%;
+  display: flex;
+  justify-content: center;
+}
+
+table > tbody > tr {
+  color: #4d5053;
+}
+
+table > tbody > tr > td:first-child {
+  font-family: "DM Serif Display";
+  padding-right: 10vh;
+}
+
+table > tbody > tr > td:last-child {
+  font-family: "Jost";
+}
+
+.d-project-info {
+  width: 55%;
+  margin-left: 5%;
+}
+
+.d-project-info > h2 {
+  color: # white;
+  font-family: "DM Serif Display";
+  font-size: 30px;
+}
+
+.d-project-info > p {
+  color: # white;
+  font-family: "Jost";
+}
+
+.zoomRoom {
+  width: 60%;
+  object-fit: cover;
+  margin: 2% auto 5% auto;
+}
+
+
+.zoomRoom > img {
+  width: 100%;
+  border-radius: 10%;
+}
+
+/* Mobile Responsive Styles */
+@media screen and (max-width: 768px) {
+  .details {
+    width: 90%;
+    flex-direction: column;
+    gap: 30px;
+    padding: 5% 0;
+  }
+
+  .d-client-info {
+    width: 100%;
+    min-height: auto;
+    padding: 5%;
+    border-radius: 20px;
+  }
+
+  table > tbody > tr > td:first-child {
+    padding-right: 5vh;
+    font-size: 16px;
+  }
+
+  table > tbody > tr > td:last-child {
+    font-size: 15px;
+  }
+
+  .d-project-info {
+    width: 100%;
+    margin-left: 0;
+    text-align: center;
+  }
+
+  .d-project-info > h2 {
+    font-size: 24px;
+  }
+
+  .d-project-info > p {
+    font-size: 16px;
+  }
+
+  .zoomRoom {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .details {
+    width: 95%;
+    padding: 5% 0;
+  }
+
+  .d-client-info {
+    padding: 6%;
+  }
+
+  table > tbody > tr > td:first-child {
+    padding-right: 3vh;
+    font-size: 14px;
+  }
+
+  table > tbody > tr > td:last-child {
+    font-size: 13px;
+  }
+
+  .d-project-info > h2 {
+    font-size: 20px;
+  }
+
+  .d-project-info > p {
+    font-size: 14px;
+  }
+
+  .zoomRoom {
+    width: 95%;
+  }
+}

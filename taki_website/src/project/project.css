@@ -1,0 +1,323 @@
+.project {
+  width: 100%;
+}
+
+.project-header {
+  display: flex;
+  height: 42vh;
+  font-family: "DM Serif Display";
+  background-repeat: no-repeat;
+  background-image: url("../images/pkhome_images/margit/cover2.jpg");
+  margin-bottom: 4%;
+  background-size: cover;
+}
+
+.project-header > h1 {
+  width: 20%;
+  padding: 2% 3% 0.5% 3%;
+  background-color: #BFBFBF;
+  border-top-right-radius: 30px;
+  border-top-left-radius: 30px;
+  align-self: flex-end;
+  text-align: center;
+  margin: 0 auto;
+  color: #3E3F43;
+}
+
+.project-header > h1 > p {
+  color: #4d5053;
+  font-size: 14px;
+  font-family: Jost;
+}
+
+/* CATEGORIES */
+.project-categories {
+  width: 50%;
+  margin: 3% auto;
+}
+
+.project-categories > ul {
+  list-style-type: none;
+  display: flex;
+  width: 100%;
+  padding: 0;
+  border: 1px solid #6FE5D4;
+  border-radius: 20px;
+}
+
+.project-categories > ul > ol {
+  border-radius: 20px;
+  text-align: center;
+  padding: 3% 3%;
+  width: 25%;
+  border: none;
+  cursor: pointer;
+}
+
+.takenCategory {
+  background-color: #6FE5D4;
+  color: white;
+}
+
+.notakenCategory {
+  background-color: transparent;
+  color: #3E3F43;
+}
+
+/* OUR PROJECTS */
+.our-projects {
+  width: 70%;
+  margin: 3% auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  height: auto;
+}
+
+/* ALTERNATING LAYOUT */
+.our-projects-alternating {
+  width: 80%;
+  max-width: 1200px;
+  margin: 4% auto;
+  padding: 0 2%;
+}
+
+.project-row {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 4%;
+  width: 100%;
+}
+
+.single-image-row {
+  justify-content: center;
+}
+
+.single-image-row .op-project {
+  max-width: 60%;
+  margin: 0;
+}
+
+.double-image-row {
+  justify-content: center;
+  gap: 3%;
+}
+
+.double-image-row .op-project {
+  max-width: 48%;
+  margin: 0;
+  flex: 1;
+}
+
+.our-projects > h1 {
+  margin: 0;
+}
+
+.our-projects > p {
+  width: 70%;
+  margin: 3% auto;
+}
+
+.op-project {
+  display: flex;
+  flex-direction: column;
+  max-width: 45%;
+  margin: 2% 2%;
+  flex: 1 1 310px;
+}
+
+
+.op-pro-img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.op-pro-img > img {
+  border-radius: 30px;
+  width: 100%;
+}
+
+.op-pro-detail {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.op-pro-info {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  text-align: start;
+  justify-content: center;
+}
+
+.op-prj-title {
+  font-family: "Dm Serif Display";
+  font-size: 18px;
+  margin: 8% 0 4% 0;
+  width: 100%;
+}
+
+.op-prj-path {
+  width: 100%;
+  font-size: 14px;
+  font-family: "Jost";
+  margin: 0;
+  width: 50%;
+}
+
+.op-pro-btn {
+  width: 18%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.op-pro-btn > a {
+  width: 70%;
+  display: flex;
+  justify-content: center;
+}
+
+.op-pro-btn > a > button {
+  width: 100%;
+  border-radius: 50%;
+  padding: 27%;
+  background-color: #BFBFBF;
+  border: none;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+}
+
+/* Mobile Responsive Styles */
+@media screen and (max-width: 768px) {
+  .project-header > h1 {
+    width: 40%;
+    font-size: 24px;
+    padding: 3% 4% 1% 4%;
+  }
+
+  .project-header > h1 > p {
+    font-size: 13px;
+  }
+
+  .project-categories {
+    width: 90%;
+  }
+
+  .project-categories > ul > ol {
+    padding: 4% 2%;
+    font-size: 14px;
+  }
+
+  .our-projects {
+    width: 90%;
+  }
+
+  .our-projects-alternating {
+    width: 90%;
+  }
+
+  .single-image-row .op-project {
+    max-width: 90%;
+  }
+
+  .double-image-row {
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .double-image-row .op-project {
+    max-width: 100%;
+  }
+
+  .op-project {
+    max-width: 100%;
+    margin: 0 0 30px 0;
+  }
+
+  .op-pro-detail {
+    align-items: center;
+  }
+
+  .op-pro-info {
+    width: 75%;
+  }
+
+  .op-prj-title {
+    font-size: 20px;
+    margin: 5% 0 3% 0;
+  }
+
+  .op-prj-path {
+    font-size: 15px;
+    width: 80%;
+  }
+
+  .op-pro-btn {
+    width: 20%;
+  }
+
+  .op-pro-btn > a > button {
+    padding: 20%;
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .project-header > h1 {
+    width: 60%;
+    font-size: 20px;
+    padding: 4% 5% 1.5% 5%;
+  }
+
+  .project-header > h1 > p {
+    font-size: 12px;
+  }
+
+  .project-categories {
+    width: 95%;
+  }
+
+  .project-categories > ul {
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 0;
+    border: none;
+  }
+
+  .project-categories > ul > ol {
+    width: calc(50% - 5px);
+    padding: 3% 2%;
+    font-size: 13px;
+    border: 1px solid #6FE5D4;
+    border-radius: 15px;
+  }
+
+  .our-projects {
+    width: 95%;
+  }
+
+  .our-projects-alternating {
+    width: 95%;
+  }
+
+  .single-image-row .op-project {
+    max-width: 100%;
+  }
+
+  .op-prj-title {
+    font-size: 18px;
+  }
+
+  .op-prj-path {
+    font-size: 13px;
+  }
+
+  .op-pro-btn > a > button {
+    padding: 18%;
+    font-size: 14px;
+  }
+}

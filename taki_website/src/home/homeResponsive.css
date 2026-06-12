@@ -1,0 +1,400 @@
+@media screen and (max-width: 768px){
+    .homeOther {
+        width: 90%; 
+    }
+
+    /* HOME SLIDER */
+    .hs-nav {
+        width: 40px;
+        height: 40px;
+        font-size: 20px;
+    }
+
+    .hs-prev {
+        left: 10px;
+    }
+
+    .hs-next {
+        right: 10px;
+    }
+
+    .hs-dots {
+        bottom: 15px;
+    }
+
+    /* HOME PLANS */
+    .homePlans {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .homePlan {
+        margin: 0;
+    }
+
+    .homePlan>a>button {
+        width: 80%;
+        padding: 4% 0;
+        font-size: 16px;
+    }
+
+    /* HOME ABOUT US */
+    .homeAboutUs {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .homeAboutUs>.hp-subtext {
+        width: 100%;
+        text-align: center;
+    }
+
+    .homeAboutUs>.hp-subtext>h1 {
+        width: 100%;
+        font-size: 28px;
+    }
+
+    .homeAboutUs>.hp-subtext>p {
+        width: 100%;
+        font-size: 16px;
+    }
+
+    .hp-img {
+        width: 100%;
+        order: -1;
+    }
+
+    /* HOME EXPERIENCE */
+    .home-experience{
+        width: 90%;
+        flex-direction: column;
+        padding: 8% 5%;
+        gap: 30px;
+    }
+
+    .h-s-project, .h-a-project {
+        border: none;
+        border-bottom: 1px solid #6FE5D4;
+        padding: 0;
+        margin: 0;
+    }
+
+    .h-s-project:last-child, .h-a-project:last-child {
+        border-bottom: none;
+    }
+
+    /* CALL US */
+    .callUs {
+        flex-direction: column;
+        gap: 20px;
+        align-items: center;
+    }
+
+    .callUs>.phoneNum {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .callUs>a {
+        width: 60%;
+    }
+
+    .callUs>a>button {
+        width: 100%;
+        padding: 4% 0;
+        font-size: 16px;
+    }
+
+    /* PEOPLE THOUGHTS */
+    .people-thoughts {
+        width: 95%;
+        padding: 8% 3%;
+    }
+
+    .people-thoughts>h1 {
+        width: 80%;
+        font-size: 28px;
+    }
+
+    .person { 
+        padding: 5%;
+        max-width: 95%;
+    }
+
+    .person-title>div {
+        width: 30%;
+        margin-right: 4%;
+    }
+
+    .person-title>p {
+        width: 66%;
+        font-size: 16px;
+        margin: 2% 0;
+    }
+
+    .person-title>p>span {
+        font-size: 14px;
+    }
+
+    .testimonials-slider {
+        padding: 0 50px;
+    }
+
+    .side-nav {
+        top: 40px;
+    }
+
+    .side-nav.prev {
+        left: 10px;
+    }
+
+    .side-nav.next {
+        right: 10px;
+    }
+
+    .testimonial-nav {
+        width: 35px;
+        height: 35px;
+        font-size: 16px;
+    }
+
+    /* HOME PROJECTS */
+    .homeProjects>h1 {
+        font-size: 28px;
+    }
+
+    .homeProjects>p {
+        width: 90%;
+        font-size: 16px;
+    }
+
+    .hp-list {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .hp-project {
+        width: 100%;
+        margin: 0;
+    }
+
+    .hp-pro-detail {
+        align-items: center;
+    }
+
+    .hp-pro-info {
+        width: 75%;
+    }
+
+    .hp-prj-title {
+        font-size: 20px;
+        margin: 5% 0 3% 0;
+    }
+
+    .hp-prj-path {
+        font-size: 15px;
+        width: 80%;
+    }
+
+    .hp-pro-btn {
+        width: 20%;
+    }
+
+    .hp-pro-btn>a>button{
+        padding: 20%;
+        font-size: 16px;
+    }
+
+    /* ARTICLES */
+    .articleNews {
+        width: 90%;
+    }
+
+    .articleNews>h1 {
+        font-size: 28px;
+    }
+
+    .articleNews>p{
+        width: 100%;
+        font-size: 16px;
+    }
+
+    .articles {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .article {
+        width: 100%;
+        padding: 5%;
+        margin: 0;
+    }
+
+    .article-content>p{
+        font-size: 18px;
+        width: 100%;
+    }
+
+    .ac-detail>p {
+        font-size: 15px;
+        width: 65%;
+    }
+
+    .ac-detail>a {
+        width: 30%;
+    }
+
+    .ac-detail>a>button{
+        width: 60%;
+        padding: 12%;
+        font-size: 16px;
+    }
+
+    /* INTERNO */
+    .h-interno {
+        width: 90%;
+        padding: 8% 5%;
+    }
+
+    .h-interno>h1 {
+        font-size: 24px;
+    }
+
+    .h-interno>p {
+        font-size: 16px;
+    }
+
+    .h-interno>a {
+        width: 50%;
+    }
+
+    .h-interno>a>button {
+        padding: 4% 0;
+        font-size: 16px;
+    }
+
+    /* HOME BRANDS */
+    .home-brands>ul {
+        flex-wrap: wrap;
+        gap: 20px;
+        justify-content: center;
+    }
+
+    .home-brands>ul>ol {
+        width: 25%;
+        min-width: 80px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .homeOther {
+        width: 95%;
+    }
+
+    /* TYPOGRAPHY */
+    h1 {
+        font-size: 24px !important;
+    }
+
+    p {
+        font-size: 14px !important;
+    }
+
+    /* HOME SLIDER */
+    .hs-nav {
+        width: 35px;
+        height: 35px;
+        font-size: 18px;
+    }
+
+    /* HOME PLANS */
+    .homePlan>a>button {
+        width: 90%;
+        padding: 5% 0;
+        font-size: 14px;
+    }
+
+    /* HOME ABOUT US */
+    .homeAboutUs>.hp-subtext>h1 {
+        font-size: 22px;
+    }
+
+    /* CALL US */
+    .callUs>a {
+        width: 80%;
+    }
+
+    .callUs>a>button {
+        padding: 5% 0;
+        font-size: 14px;
+    }
+
+    /* PEOPLE THOUGHTS */
+    .people-thoughts>h1 {
+        width: 95%;
+        font-size: 22px;
+    }
+
+    .person-title>p {
+        font-size: 14px;
+    }
+
+    .person-title>p>span {
+        font-size: 12px;
+    }
+
+    .testimonials-slider {
+        padding: 0 40px;
+    }
+
+    .testimonial-nav {
+        width: 30px;
+        height: 30px;
+        font-size: 14px;
+    }
+
+    /* HOME PROJECTS */
+    .homeProjects>h1 {
+        font-size: 22px;
+    }
+
+    .hp-prj-title {
+        font-size: 18px;
+    }
+
+    .hp-prj-path {
+        font-size: 13px;
+    }
+
+    /* ARTICLES */
+    .articleNews>h1 {
+        font-size: 22px;
+    }
+
+    .article-content>p{
+        font-size: 16px;
+    }
+
+    .ac-detail>p {
+        font-size: 13px;
+    }
+
+    /* INTERNO */
+    .h-interno>h1 {
+        font-size: 20px;
+    }
+
+    .h-interno>p {
+        font-size: 14px;
+    }
+
+    .h-interno>a {
+        width: 70%;
+    }
+
+    /* HOME BRANDS */
+    .home-brands>ul>ol {
+        width: 30%;
+        min-width: 70px;
+    }
+}

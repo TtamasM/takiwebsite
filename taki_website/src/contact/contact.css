@@ -1,0 +1,303 @@
+.contact {
+    width: 100%;
+    background-color: #3d3f43;
+}
+
+.contact-header {
+    display: flex;
+    height: 42vh;
+    font-family: 'DM Serif Display';
+    background-repeat: no-repeat;
+    background-image: url("../images/pkhome_images/margit/cover.jpg");
+    margin-bottom: 4%;
+    background-size: cover;
+}
+
+.contact-header>h1{
+    width: 20%;
+    padding: 2% 3% 0.5% 3%;
+    background-color: #BFBFBF;
+    border-top-right-radius: 30px;
+    border-top-left-radius: 30px;
+    align-self: flex-end;
+    text-align: center;
+    margin: 0 auto;
+    color: #3E3F43;
+}
+
+.contact-header>h1>p {
+    color: #BFBFBF;
+        font-size: 14px;
+        font-family: Jost;
+}
+
+.contact-content {
+    align-items: center;
+    width: 80%;
+    margin: 3% auto;
+}
+
+/* Contact Introduction Section */
+.contact-intro {
+    display: flex;
+    align-items: center;
+    background-color: #BFBFBF;
+    padding: 4% 5%;
+    border-radius: 20px;
+    margin-bottom: 3%;
+}
+
+.contact-portrait {
+    width: 25%;
+    margin-right: 5%;
+}
+
+.contact-portrait img {
+    width: 100%;
+    border-radius: 15px;
+}
+
+.contact-info {
+    width: 53%;
+}
+
+.contact-qr {
+    width: 25%;
+    margin-left: 2%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact-qr img {
+    width: 100%;
+    border-radius: 15px;
+}
+
+.contact-info h2 {
+    color: #3E3F43;
+    font-size: 28px;
+    margin-bottom: 3%;
+    text-align: left;
+}
+
+.contact-details {
+    margin: 3% 0;
+}
+
+.contact-details p {
+    display: flex;
+    align-items: center;
+    margin: 2% 0;
+    color: #3E3F43;
+}
+
+.contact-details .icon {
+    background-color: #6FE5D4;
+    color: white;
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 3%;
+}
+
+.contact-details a {
+    color: #3E3F43;
+    text-decoration: none;
+}
+
+.contact-details a:hover {
+    color: #6FE5D4;
+}
+
+.messaging-icons {
+    margin-left: auto;
+    display: flex;
+    gap: 10px;
+}
+
+.messaging-icons a {
+    background-color: #6FE5D4;
+    color: white;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.messaging-icons a:hover {
+    background-color: #3E3F43;
+}
+
+.contact-form {
+    background-color: #BFBFBF;
+    padding: 4% 5%;
+    border-radius: 20px;
+}
+
+.contact-form h3 {
+    color: #3E3F43;
+    font-family: 'DM Serif Display';
+    font-size: 24px;
+    margin-bottom: 3%;
+    text-align: center;
+}
+
+.contact-smedias {
+    margin-top: 3%;
+}
+
+.contact-smedias>ul {
+    display: flex;
+    padding: 0;
+    margin: 0;
+}
+
+.contact-smedias>ul>li {
+    list-style-type: none;
+    margin-right: 4%;
+}
+
+.contact-smedias>ul>li>a {
+    color: #3E3F43;
+    font-size: 20px;
+    transition: color 0.3s ease;
+}
+
+.contact-smedias>ul>li>a:hover {
+    color: #6FE5D4;
+}
+
+.contact-form-fill {
+    width: 100%;
+}
+
+.contact-form-fill>div {
+    display: flex;
+}
+
+.contact-form-fill>div>input{
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom-style: groove;
+    outline: none;
+    margin-left: 5%;
+    border-bottom: 1px solid #3E3F43;
+    color: #3E3F43;
+    background-color: transparent;
+}
+
+.contact-form-fill>div>textarea{
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom-style: groove;
+    outline: none;
+    margin-left: 5%;
+    resize: none;
+    min-height: 100px;
+    width: 100%;
+    border-bottom: 1px solid #3E3F43;
+    color: #3E3F43;
+    background-color: transparent;
+}
+
+.contact-form-fill>.nameEmail>input,
+.contact-form-fill>.subjectPhone>input {
+    margin-bottom: 10%;
+    width: 100%;
+    height: 30px;
+}
+
+.contact-form-fill>.interested {
+    width: 100%;
+}
+
+.contact-form-fill>.send {
+    width: 100%;
+    margin-top: 8%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.contact-form-fill>.send>button{
+    width: 30%;
+    padding: 3% 0%;
+    border-radius: 15px;
+    background-color: #3E3F43;
+    color: #BFBFBF;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    border: none;
+}
+
+.map {
+    display: flex;
+    justify-content: center;
+    margin: 8% 0%;
+}
+
+iframe {
+    border-radius: 20px;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+    .contact-intro {
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .contact-portrait {
+        width: 50%;
+        margin-right: 0;
+        margin-bottom: 4%;
+    }
+    
+    .contact-info {
+        width: 100%;
+    }
+    
+    .contact-qr {
+        width: 50%;
+        margin-left: 0;
+        margin-top: 4%;
+    }
+    
+    .contact-info h2 {
+        text-align: center;
+        font-size: 22px;
+    }
+    
+    .contact-details p {
+        justify-content: center;
+    }
+    
+    .contact-smedias>ul {
+        justify-content: center;
+    }
+    
+    .contact-form-fill>div {
+        flex-direction: column;
+    }
+    
+    .contact-form-fill>div>input {
+        margin-left: 0;
+        margin-bottom: 3%;
+        width: 100%;
+    }
+    
+    .contact-form-fill>div>textarea {
+        margin-left: 0;
+        width: 100%;
+    }
+}

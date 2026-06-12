@@ -1,0 +1,370 @@
+.services {
+    width: 100%;
+}
+
+.services-header {
+  width: 100%;
+  min-height: 43vh;
+  background-image: url("../images/pkhome_images/home_slides/slider-3.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  text-align: center;
+}
+
+.services-header > h1 {
+  width: 20%;
+  margin: 0;
+  padding: 2% 3% 0.5% 3%;
+  background-color: #BFBFBF;
+  color: #3E3F43;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+}
+
+.services-header > h1 > p {
+  color: #4d5053;
+  font-size: 14px;
+  font-family: Jost;
+}
+
+/* SERVICE TYPES */
+.service-types {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin: 3% auto;
+}
+
+.service-type {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 40px 30px;
+    text-align: left;
+    border-radius: 20px;
+    background-color: #BFBFBF;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.service-type:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+}
+
+.selected-type {
+    background-color: #BFBFBF;
+}
+
+.service-type>h2 {
+    font-family: 'Dm Serif Display';
+    font-size: 28px;
+    margin: 0 0 20px 0;
+    color: #3E3F43;
+    border-bottom: 3px solid #6FE5D4;
+    padding-bottom: 15px;
+    display: inline-block;
+}
+
+.service-type>p {
+    font-family: 'Jost';
+    font-size: 16px;
+    line-height: 1.6;
+    color: #4d5053;
+    margin: 0;
+}
+
+.service-type>a{
+    width: 50%;
+}
+
+.service-type>a>button{
+    background-color: transparent;
+    border: none;
+    width: 100%;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Jost';
+    font-size: 14px;
+    font-weight: 600;
+    color: #3E3F43;
+}
+
+/* HOW WE WORK */
+.howWeWork {
+    color: #3E3F43;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 3% auto;
+    background-color: #BFBFBF;
+    border-radius: 30px;
+    padding: 7% 5%;
+}
+
+.how-content {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin: 7% 0% 3% 0%;
+}
+
+.hc-img {
+    width: 50%;
+    object-fit: cover;
+}
+
+.hc-img>img {
+    width: 100%;
+    border-top-right-radius: 25%;
+    border-bottom-left-radius: 70%;
+}
+
+.how-title {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 90%;
+}
+
+.how-title>h1 {
+    margin: 0;
+}
+
+.how-title>p {
+    font-family: 'Jost';
+    color: #4d5053;
+}
+
+.hc-text {
+    margin: 0% 5%;
+    width: 45%;
+}
+
+.hc-text-anima {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin: 0 0 5% 0;
+}
+
+.hc-text-anima>img {
+    width: 25%;
+}
+
+.hc-text-anima>p {
+    font-size: 20vh;
+    font-family: 'Dm Serif Display';
+    margin: 0;
+    color: white;
+}
+
+.hc-subtext>p {
+    color: #4d5053;
+    font-size: 14px;
+}
+
+/* INTERNO */
+.interno {
+    width: 60%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    margin: 5% auto;
+    padding: 3% 0;
+    background-color: #3E3F43;
+    border-radius: 50px;
+    color: white;
+}
+
+.interno>h1 {
+    margin: 0;
+    color: white;
+}
+
+.interno>a {
+    width: 22%;
+    margin: 3% 0%;
+}
+
+.interno>a>button {
+    color: white;
+    width: 100%;
+    padding: 8% 0%;
+    border-radius: 15px;
+    border: none;
+    background-color: #6FE5D4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* RESPONSIVE DESIGN */
+@media screen and (max-width: 768px) {
+    .services-header > h1 {
+        width: 40%;
+        font-size: 24px;
+        padding: 3% 4% 1% 4%;
+    }
+
+    .services-header > h1 > p {
+        font-size: 13px;
+    }
+
+    .service-types {
+        width: 90%;
+        gap: 25px;
+    }
+    
+    .service-type {
+        padding: 30px 25px;
+    }
+    
+    .service-type>h2 {
+        font-size: 24px;
+        margin-bottom: 15px;
+    }
+    
+    .service-type>p {
+        font-size: 15px;
+        line-height: 1.5;
+    }
+
+    .service-type>a {
+        width: 70%;
+    }
+
+    .service-type>a>button {
+        font-size: 16px;
+        padding: 3% 0;
+    }
+
+    .howWeWork {
+        width: 90%;
+        padding: 8% 5%;
+    }
+
+    .how-title>h1 {
+        font-size: 28px;
+    }
+
+    .how-title>p {
+        font-size: 16px;
+    }
+
+    .how-content {
+        flex-direction: column;
+        gap: 30px;
+        margin: 5% 0;
+    }
+
+    .hc-img {
+        width: 100%;
+        order: -1;
+    }
+
+    .hc-text {
+        width: 100%;
+        margin: 0;
+    }
+
+    .hc-text-anima>p {
+        font-size: 15vh;
+    }
+
+    .interno {
+        width: 90%;
+        padding: 8% 5%;
+    }
+
+    .interno>h1 {
+        font-size: 24px;
+    }
+
+    .interno>a {
+        width: 50%;
+    }
+
+    .interno>a>button {
+        padding: 4% 0;
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .services-header > h1 {
+        width: 60%;
+        font-size: 20px;
+        padding: 4% 5% 1.5% 5%;
+    }
+
+    .services-header > h1 > p {
+        font-size: 12px;
+    }
+
+    .service-types {
+        width: 95%;
+        gap: 20px;
+    }
+    
+    .service-type {
+        padding: 25px 20px;
+    }
+    
+    .service-type>h2 {
+        font-size: 20px;
+        margin-bottom: 12px;
+    }
+    
+    .service-type>p {
+        font-size: 14px;
+    }
+
+    .service-type>a {
+        width: 80%;
+    }
+
+    .service-type>a>button {
+        font-size: 14px;
+    }
+
+    .howWeWork {
+        width: 95%;
+    }
+
+    .how-title>h1 {
+        font-size: 22px;
+    }
+
+    .how-title>p {
+        font-size: 14px;
+    }
+
+    .hc-text-anima>p {
+        font-size: 12vh;
+    }
+
+    .hc-subtext>p {
+        font-size: 13px;
+    }
+
+    .interno>h1 {
+        font-size: 20px;
+    }
+
+    .interno>a {
+        width: 70%;
+    }
+
+    .interno>a>button {
+        font-size: 14px;
+    }
+}
