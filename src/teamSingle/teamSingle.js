@@ -16,23 +16,17 @@ export function TeamSingle() {
         </div>
         <div className="p-d-content">
           <div className="p-d-info">
+            <p className="story-section-label">A &quot;Két Cipő&quot; Története (Személyes Brand Sztori)</p>
             <h1>Az én küszöbeim</h1>
             <p className="subcontent">
-              2018-ban két nagyon különböző cipő volt a lábamon. Az egyikben a BME ipari
-              termék- és formatervező szakának hallgatójaként jártam, a másikban a Kalazancius
-              Mozgalom önkéntes vezetőjeként.
+              2018-ban két nagyon különböző cipő volt a lábamon. Az egyikben a BME ipari termék- és formatervező szakának hallgatójaként jártam, a másikban a Kalazancius Mozgalom önkéntes vezetőjeként.
             </p>
             <p className="subcontent">
-              Lánézetem a lábamra, és a cipőim aligha hasonlítottak. De egy dolog közös volt
-              bennük: egyikkel sem tudtam pontosan, mi lesz a következő lépés. Ez a bizonytalanság
-              tanított meg arra, hogy a küszöbön állás nem egy passzív állapot, hanem a legnagyobb
-              potenciál tere.
+              Lánézetem a lábamra, és a cipőim aligha hasonlítottak. De egy dolog közös volt bennük: egyikkel sem tudtam pontosan, mi lesz a következő lépés. Ez a bizonytalanság tanított meg arra, hogy a küszöbön állás nem egy passzív állapot, hanem a legnagyobb potenciál tere.
             </p>
+            <h2 className="profession-label">Szakmai hitvallás:</h2>
             <p className="subcontent">
-              Ma már látom az összefüggést. Tervezőmérnökként rendszerekben és megoldásokban
-              gondolkodom (Design Thinking), coachként pedig teret tartok és kísérek. Ez a kettősség
-              teszi lehetővé, hogy az ügyfeleim ne csak „jól érezzék magukat”, hanem valódi,
-              tervezhető változást érjenek el.
+              Ma már látom az összefüggést. Tervezőmérnökként rendszerekben és megoldásokban gondolkodom (Design Thinking), coachként pedig teret tartok és kísérek. Ez a kettősség teszi lehetővé, hogy az ügyfeleim ne csak &quot;jól érezzék magukat&quot;, hanem valódi, tervezhető változást érjenek el.
             </p>
           </div>
         </div>
