@@ -57,11 +57,27 @@
   justify-content: flex-start;
 }
 
+.story-section-label {
+  font-family: 'Jost', sans-serif;
+  font-size: 14px;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  opacity: 0.75;
+  margin: 0 0 12px 0;
+}
+
 .p-d-info > h1 {
   color: #BFBFBF;
   margin: 0;
   font-size: 40px;
   line-height: 1.15;
+}
+
+.profession-label {
+  font-family: 'DM Serif Display', serif;
+  color: #BFBFBF;
+  font-size: 22px;
+  margin: 28px 0 12px 0;
 }
 
 .p-d-info > p {
