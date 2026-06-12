@@ -2,6 +2,7 @@ import "./teamSingle.css";
 import photo from "../images/pkhome_images/portraits/petyerak-kati-bemutatkozo-rs-pkhome.hu_.jpg";
 // removed other members components for single-person "Rólam" page
 
+
 export function TeamSingle() {
   return (
     <div className="teamSingle">
