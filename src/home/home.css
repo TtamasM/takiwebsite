@@ -14,6 +14,114 @@
     margin-right: -50vw;
 }
 
+.hero-overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 5;
+    text-align: center;
+    width: 80%;
+    max-width: 900px;
+    padding: 3%;
+    background: rgba(61, 63, 67, 0.75);
+    border-radius: 20px;
+}
+
+.hero-overlay > h1 {
+    color: #F1F0E4;
+    font-size: clamp(28px, 4vw, 48px);
+    margin: 0 0 16px 0;
+    line-height: 1.2;
+}
+
+.hero-subtitle {
+    font-family: 'Jost', sans-serif;
+    color: #BCA88D;
+    font-size: clamp(16px, 2vw, 20px);
+    line-height: 1.6;
+    margin: 0 0 24px 0;
+}
+
+.hero-cta {
+    padding: 14px 28px;
+    border: none;
+    border-radius: 12px;
+    background-color: #7D8D86;
+    color: #F1F0E4;
+    font-family: 'Jost', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    transition: background-color 0.3s ease;
+}
+
+.hero-cta:hover {
+    background-color: #BCA88D;
+}
+
+.home-problem-solution {
+    width: 100%;
+    margin: 5% 0;
+    padding: 5%;
+    background-color: #BFBFBF;
+    border-radius: 30px;
+    text-align: left;
+    color: #3E3F43;
+}
+
+.home-problem-solution > h1 {
+    color: #3E3F43;
+    font-size: clamp(24px, 3vw, 36px);
+    margin-bottom: 20px;
+}
+
+.home-problem-solution > p {
+    font-family: 'Jost', sans-serif;
+    line-height: 1.8;
+    font-size: 16px;
+    color: #4D5053;
+}
+
+.home-problem-solution > h2 {
+    font-family: 'DM Serif Display', serif;
+    color: #3E3F43;
+    margin: 30px 0 16px 0;
+    font-size: 24px;
+}
+
+.home-problem-solution > ul {
+    font-family: 'Jost', sans-serif;
+    line-height: 1.8;
+    padding-left: 20px;
+    color: #4D5053;
+}
+
+.home-intro-teaser {
+    width: 100%;
+    margin: 5% 0;
+    padding: 4%;
+    text-align: center;
+    color: #BFBFBF;
+}
+
+.home-intro-teaser > p {
+    font-family: 'Jost', sans-serif;
+    line-height: 1.8;
+    font-size: 18px;
+    max-width: 800px;
+    margin: 0 auto 20px auto;
+}
+
+.home-intro-teaser > a {
+    font-family: 'Jost', sans-serif;
+    color: #6FE5D4;
+    text-decoration: none;
+    font-weight: 600;
+}
+
 /* HOME SLIDER STYLES */
 .home-slider {
     position: relative;

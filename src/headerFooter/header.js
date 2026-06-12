@@ -32,7 +32,7 @@ export function Header() {
           <ul>
               <li><Link to={`/`}>Kezdőlap</Link></li>
               <li><Link to={`/rolunk`}>Rólam</Link></li>
-              <li><Link to={`/services`}>Szolgáltatásaim</Link></li>
+              <li><Link to={`/services`}>Szolgáltatások</Link></li>
               <li><Link to={`/projects`}>Referenciáim</Link></li>
               <li><Link to={`/megjelenesek`}>Megjelenések</Link></li>
               <li><Link to={`/contact`}>Kapcsolat</Link></li>
@@ -51,7 +51,7 @@ export function Header() {
         <ul>
           <li><Link to="/" onClick={closeMobileMenu}>Kezdőlap</Link></li>
           <li><Link to="/rolunk" onClick={closeMobileMenu}>Rólam</Link></li>
-          <li><Link to="/services" onClick={closeMobileMenu}>Szolgáltatásaim</Link></li>
+          <li><Link to="/services" onClick={closeMobileMenu}>Szolgáltatások</Link></li>
           <li><Link to="/projects" onClick={closeMobileMenu}>Referenciáim</Link></li>
           <li><Link to="/megjelenesek" onClick={closeMobileMenu}>Megjelenések</Link></li>
           <li><Link to="/contact" onClick={closeMobileMenu}>Kapcsolat</Link></li>

@@ -75,10 +75,10 @@ export function Footer() {
         <section className="f-contact">
           <p>Kapcsolat</p>
           <p>
-            <a href="mailto: kpetyerak@hotmail.com">kpetyerak@hotmail.com</a>
+            <a href="mailto:takacstamasmark@gmail.com">takacstamasmark@gmail.com</a>
           </p>
           <p>
-            <a href="tel:+36209686946">+36 (20) 96 86 946</a>
+            <a href="tel:+36301783902">+36 30 178 3902</a>
           </p>
         </section>
       </div>

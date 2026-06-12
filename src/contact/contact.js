@@ -13,32 +13,32 @@ export function Contact() {
   return (
     <div className="contact">
       <div className="contact-header">
-
+        <h1>Kapcsolat</h1>
       </div>
       <div className="contact-content">
         <div className="contact-intro">
           <div className="contact-portrait">
-            <img src={portraitImage} alt="Petyerák Katalin" />
+            <img src={portraitImage} alt="Takács Tamás Márk" />
           </div>
           <div className="contact-info">
-            <h2>Petyerák Katalin</h2>
-            <h2>Keress bizalommal!</h2>
+            <h2>Takács Tamás Márk</h2>
+            <p className="contact-message">
+              Milyen a Te küszöböd? Ha úgy érzed, jól jönne egy kísérő az első lépéshez, keress bizalommal.
+            </p>
             <div className="contact-details">
               <p>
                 <span className="icon">
                   <HiOutlineMail />
                 </span>
-                <a href="mailto:kpetyerak@hotmail.com">kpetyerak@hotmail.com</a>
+                <a href="mailto:takacstamasmark@gmail.com">takacstamasmark@gmail.com</a>
               </p>
               <p>
                 <span className="icon">
                   <BsTelephone />
                 </span>
-            
-
-                <a href="tel:+36209686946">+36 (20) 96 86 946</a>
-              
+                <a href="tel:+36301783902">+36 30 178 3902</a>
               </p>
+              <p className="contact-address">Cím: (Hamarosan)</p>
             </div>
             <div className="contact-smedias">
               <ul>

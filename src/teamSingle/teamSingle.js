@@ -12,23 +12,40 @@ export function TeamSingle() {
       </div>
       <div className="personal-detail">
         <div className="personal-img">
-          <img src={photo} alt="Petyerák Kati"></img>
+          <img src={photo} alt="Takács Tamás Márk"></img>
         </div>
         <div className="p-d-content">
           <div className="p-d-info">
-            <h1>Petyerák Kati</h1>
-            <p className="job">Lakberendező, Az Év Lakberendezője 2016</p>
+            <h1>Az én küszöbeim</h1>
             <p className="subcontent">
-            20 év repülés után elhatároztam, hogy professzionális szintre emelem azt a tevékenységet, amit hobbiként mindig is gyakoroltam, és amihez barátaim szerint tehetségem van. Célom olyan enteriőrök létrehozása, ahol a jó térszervezés, praktikus megoldások és a burkolatok, bútorok, textíliák, kiegészítők, valamint a világítás harmonikus összhangja biztosítja a kényelmet és jó közérzetet.
+              2018-ban két nagyon különböző cipő volt a lábamon. Az egyikben a BME ipari
+              termék- és formatervező szakának hallgatójaként jártam, a másikban a Kalazancius
+              Mozgalom önkéntes vezetőjeként.
             </p>
             <p className="subcontent">
-            Lakásokból és házakból otthonokat szeretnék varázsolni, ahova jó hazatérni, és ahol feltöltődve indulhat a nap. A 2016-ban elnyert „Az Év Lakberendezője” díj óta számos megtisztelő felkérés és sajtómegjelenés kíséri munkámat. Hálás vagyok, hogy mindig azt csinálhattam, amit szeretek és megvalósíthatom nemcsak a saját, hanem ügyfeleim álmait is.
+              Lánézetem a lábamra, és a cipőim aligha hasonlítottak. De egy dolog közös volt
+              bennük: egyikkel sem tudtam pontosan, mi lesz a következő lépés. Ez a bizonytalanság
+              tanított meg arra, hogy a küszöbön állás nem egy passzív állapot, hanem a legnagyobb
+              potenciál tere.
             </p>
-          </div>
-          <div className="icons">
-            
+            <p className="subcontent">
+              Ma már látom az összefüggést. Tervezőmérnökként rendszerekben és megoldásokban
+              gondolkodom (Design Thinking), coachként pedig teret tartok és kísérek. Ez a kettősség
+              teszi lehetővé, hogy az ügyfeleim ne csak „jól érezzék magukat”, hanem valódi,
+              tervezhető változást érjenek el.
+            </p>
           </div>
         </div>
+      </div>
+
+      <div className="trust-markers">
+        <h2>Amire támaszkodhatsz</h2>
+        <ul>
+          <li>8 év aktív közösségvezetői tapasztalat</li>
+          <li>Life &amp; Business Coach képesítés (Coaching Centrum)</li>
+          <li>Design Thinking és Rendszerszemléletű megközelítés</li>
+          <li>Szakmai fókusz: Változásmenedzsment, Reziliencia, Vezetői attitűd fejlesztés</li>
+        </ul>
       </div>
       
       {/* Csapatunk tagjai szekció eltávolítva: egyetlen bemutatkozó oldal */}
