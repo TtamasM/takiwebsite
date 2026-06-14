@@ -1,0 +1,20 @@
+{
+  "process": [
+    {
+      "step": "Kapcsolatfelvétel",
+      "description": "Írj vagy foglalj időpontot."
+    },
+    {
+      "step": "Ingyenes konzultáció",
+      "description": "Egy 20-30 perces beszélgetés, ahol ránézünk a helyzetedre."
+    },
+    {
+      "step": "Megállapodás",
+      "description": "Ha úgy döntünk, ketten állunk a küszöbre, melléd szegődöm."
+    },
+    {
+      "step": "Közös munka",
+      "description": "Rendszeres ülések (személyesen vagy online), ahol kérdésekkel és visszajelzésekkel támogatlak."
+    }
+  ]
+}

@@ -23,7 +23,7 @@
     align-self: flex-end;
     text-align: center;
     margin: 0 auto;
-    color: #3E3F43;
+    color: #7D8D86;
 }
 
 .restricted-header>h1>p {
@@ -51,7 +51,7 @@
 
 .passwordPart>h1 {
     font-family: 'DM Serif Display';
-    color: #3E3F43;
+    color: #7D8D86;
 }
 
 .passwordPart>.p-text-part>p{
@@ -84,7 +84,7 @@
     padding: 5% 0%;
     width: 40%;
     border-radius: 15px;
-    background-color: #3E3F43;
+    background-color: #7D8D86;
     color: white;
     margin-top: 20%;
     margin-bottom: 15%;

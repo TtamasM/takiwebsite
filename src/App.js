@@ -14,8 +14,8 @@ import { Cookies } from './Allterms/cookies';
 import { Privacy } from './Allterms/privacy';
 import { Route, Routes, BrowserRouter } from 'react-router-dom';
 import { SmoothScroll } from './smooth';
-import { Appearances } from './appearances/appearances';
 import { Services } from './servicesPage/services';
+import { Process } from './processPage/process';
 
 function App() {
 
@@ -34,10 +34,11 @@ function App() {
         {/* Blog removed */}
         <Route path='/services' element={<Services/>}></Route>
         <Route path='/service-single' element={<ServiceSingle/>}></Route>
+        <Route path='/process' element={<Process/>}></Route>
         <Route path='/' element={<Home/>}></Route>
         {/* Blog removed */}
-        <Route path='/projects' element={<Project/>}></Route>
-        <Route path='/megjelenesek' element={<Appearances/>}></Route>
+        {/* <Route path='/projects' element={<Project/>}></Route>
+        <Route path='/megjelenesek' element={<Appearances/>}></Route> */}
         <Route path='/terms' element={<Terms />}></Route>
         <Route path='/cookies-policy' element={<Cookies />}></Route>
         <Route path='/privacy-policy' element={<Privacy />}></Route>

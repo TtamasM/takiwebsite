@@ -32,8 +32,11 @@ a {
     align-items: center;
 }
 
-.header-logo>img{
-    width: 100%;
+/* Add to header.css */
+
+.header-logo img {
+    width: 60px; /* Change this value (e.g., 40px, 80px) to resize */
+    height: auto; /* This keeps the aspect ratio correct so it doesn't stretch */
 }
 
 .header-pages {
