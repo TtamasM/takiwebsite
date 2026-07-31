@@ -3,25 +3,6 @@
         width: 90%; 
     }
 
-    /* HOME SLIDER */
-    .hs-nav {
-        width: 40px;
-        height: 40px;
-        font-size: 20px;
-    }
-
-    .hs-prev {
-        left: 10px;
-    }
-
-    .hs-next {
-        right: 10px;
-    }
-
-    .hs-dots {
-        bottom: 15px;
-    }
-
     /* HOME PLANS */
     .homePlans {
         flex-direction: column;
@@ -298,13 +279,6 @@
 
     p {
         font-size: 14px !important;
-    }
-
-    /* HOME SLIDER */
-    .hs-nav {
-        width: 35px;
-        height: 35px;
-        font-size: 18px;
     }
 
     /* HOME PLANS */

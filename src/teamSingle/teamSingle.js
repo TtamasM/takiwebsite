@@ -1,5 +1,5 @@
 import "./teamSingle.css";
-import photo from "../images/pkhome_images/portraits/petyerak-kati-bemutatkozo-rs-pkhome.hu_.jpg";
+import photo from "../taki_images/taki_linkedin_profile.jpeg";
 // removed other members components for single-person "Rólam" page
 
 
@@ -17,7 +17,7 @@ export function TeamSingle() {
         </div>
         <div className="p-d-content">
           <div className="p-d-info">
-            <p className="story-section-label">A &quot;Két Cipő&quot; Története (Személyes Brand Sztori)</p>
+            <p className="story-section-label">A &quot;Két Cipő&quot; Története</p>
             <h1>Az én küszöbeim</h1>
             <p className="subcontent">
               2018-ban két nagyon különböző cipő volt a lábamon. Az egyikben a BME ipari termék- és formatervező szakának hallgatójaként jártam, a másikban a Kalazancius Mozgalom önkéntes vezetőjeként.

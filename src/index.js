@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import pkHomeLogo from './images/pkhome_images/pkhome-logo-rs.png';
+import pkHomeLogo from './taki_images/taki_logo_white.png';
 
 const setFavicon = (href) => {
   const head = document.head || document.getElementsByTagName('head')[0];

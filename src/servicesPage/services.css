@@ -19,7 +19,7 @@
   margin: 0;
   padding: 2% 3% 0.5% 3%;
   background-color: #BFBFBF;
-  color: #3E3F43;
+  color: #7D8D86;
   border-top-right-radius: 20px;
   border-top-left-radius: 20px;
 }
@@ -62,7 +62,7 @@
 
 .package-card {
     background-color: #BFBFBF;
-    color: #3E3F43;
+    color: #7D8D86;
     border-radius: 20px;
     padding: 30px;
     text-align: left;
@@ -173,7 +173,7 @@
     font-family: 'Dm Serif Display';
     font-size: 28px;
     margin: 0 0 20px 0;
-    color: #3E3F43;
+    color: #7D8D86;
     border-bottom: 3px solid #6FE5D4;
     padding-bottom: 15px;
     display: inline-block;
@@ -202,12 +202,12 @@
     font-family: 'Jost';
     font-size: 14px;
     font-weight: 600;
-    color: #3E3F43;
+    color: #7D8D86;
 }
 
 /* HOW WE WORK */
 .howWeWork {
-    color: #3E3F43;
+    color: #7D8D86;
     width: 50%;
     display: flex;
     flex-direction: column;
@@ -289,7 +289,7 @@
     text-align: center;
     margin: 5% auto;
     padding: 3% 0;
-    background-color: #3E3F43;
+    background-color: #7D8D86;
     border-radius: 50px;
     color: white;
 }
