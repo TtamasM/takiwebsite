@@ -11,7 +11,6 @@ import lajos01 from "../images/pkhome_images/Lajos/Lajos-utca-ugyvedi-iroda-18-p
 import miko01 from "../images/pkhome_images/Miko/Miko-utca-09-pkhome.hu_-1030x686.jpg";
 import alsohegy01 from "../images/pkhome_images/Alsohegy/Alsohegy-utca-13-pkhome.hu_-1030x686.jpg";
 import hajnoczy01 from "../images/pkhome_images/Hajnoczy/Hajnoczy-utca-42-pkhome.hu_-1030x687.jpg";
-import csepregi01 from "../images/pkhome_images/Csepregi-Eva/Csepregi-Eva-lakas-1-pkhome.hu-pkhome.hu_-1030x684.jpg";
 import amfiteratrum01 from "../images/pkhome_images/amfiteatrum_utca/KJA_18062025_05.jpg"; 
 import margitKorut01 from "../images/pkhome_images/margit/KJA_25062024_072.jpg";
 import abelia01 from "../images/pkhome_images/abelia/20240120_094639856_iOS.jpeg";

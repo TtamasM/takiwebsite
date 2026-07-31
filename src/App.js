@@ -8,7 +8,6 @@ import { TeamSingle } from './teamSingle/teamSingle';
 import { NotFound } from './404/404';
 import { ServiceSingle } from './serviceSingle/serviceSingle';
 import { Home } from './home/home';
-import { Project } from './project/project';
 import { Terms } from './Allterms/terms';
 import { Cookies } from './Allterms/cookies';
 import { Privacy } from './Allterms/privacy';
