@@ -6,7 +6,7 @@ import {
   FaFacebookF,
 
 } from "react-icons/fa";
-import portraitImage from "../images/pkhome_images/portraits/petyerak-katalin-pkhome.hu_.jpg";
+import portraitImage from "../taki_images/taki_linkedin_profile.jpeg";
 import qrCode from "../images/qr-code.png";
 
 export function Contact() {
